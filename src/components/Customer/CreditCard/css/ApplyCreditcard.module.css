@@ -1,0 +1,90 @@
+/* Apply Creditcard page */
+.FormTitle{
+    font-size: 1.5625em; /* 1em = 16px */
+    margin-top: 20px;
+    color: #AA3A21;
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 14px;
+}
+
+.ccImage {
+    width: 100%;
+    min-width: 330px;
+    max-width: 350px;
+}
+
+.ccDescription {
+    justify-content: center;
+    color: #173A77 !important;
+    display: inline-grid;
+    align-content: center;
+}
+
+.ccSelectDiv {
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.ccSelectBtn {
+    background-color: #AA3A21 !important;
+    padding: 8px 60px !important;
+    color: white !important;
+    text-transform: none !important;
+}
+
+.ccSelectBtn:disabled{
+    background-color: #aa3a2165 !important;
+    padding: 8px 60px !important;
+    color: white !important;
+    text-transform: none !important;
+}
+
+/* Creditcard Name page */
+.CCApp {
+    text-align: left;
+    font-size: 24px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #AA3A21;
+    font-weight: bold !important;
+}
+.form-group{
+    color: #173A77
+}
+.form-controls{
+    color: #AA3A21;
+}
+
+/* Creditcard Submission page */
+.form-controls-2{
+    color: #E8CE7C
+}
+.btnApply{
+    min-width: 300px !important;  
+    min-height: 50px !important;  
+    color: #ffffff !important;
+    background-color:  #AA3A21 !important;
+    padding: '12px 140px' !important;
+    font-size: 16px !important;
+    position: absolute !important;
+    bottom: 200px !important;
+    right: 120px !important;
+}
+.btnCancel{
+    min-width: 300px !important;  
+    min-height: 50px !important;  
+    color: #ffffff !important;
+    background-color:  #e26448 !important;
+    padding: '12px 140px' !important;
+    font-size: 16px !important;
+    position: absolute !important;
+    bottom: 120px !important;
+    right: 120px !important;
+    
+}
+
+.ccLink {
+    text-decoration: none !important;
+}

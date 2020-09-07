@@ -1,0 +1,30 @@
+#paymentSuccessful{
+   
+    position: absolute;
+    top: 30%;
+    right:30%;
+    line-height: 1em;
+    text-align: center;
+ 
+ }
+
+ .ccConfirmDiv {
+     text-align: center;
+ }
+ 
+.creditcardSuccessIcon {
+    font-size: 200px !important;
+    color: darkred;
+}
+
+ .confirmHeader{
+     margin-top: 0;
+     color: #173A77; 
+     font-size: 45px ;
+     font-family: Arial Black;
+ }
+ 
+ .confirmMsg{
+     color: #173A77; 
+     font-size: 16px ;
+ }

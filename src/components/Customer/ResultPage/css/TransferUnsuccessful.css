@@ -1,0 +1,29 @@
+#TransferUnSuccessful{
+   
+    position: absolute;
+    top: 30%;
+    right:30%;
+    line-height: 1em;
+    text-align: center;
+ 
+ }
+ 
+ #text{
+     color: #173A77; 
+     font-size: 52px ;
+     font-family: Arial Black;
+ }
+ 
+ #message{
+     color: #173A77; 
+     font-size: 20px ;
+ }
+ 
+ #img
+ {
+     height: 60px;
+     bottom: 47%;
+     right:38%;
+ }
+ 
+ 

@@ -1,0 +1,72 @@
+.content {
+    flex-grow: 1;
+    height: 100vh;
+    overflow: auto;
+}
+
+.bodyTitle{
+    color: #173a77;
+    text-align: center;
+    font-size: 1.5625em
+    /* border: 2px solid red; */
+}
+
+.activeTitle {
+    text-decoration: underline;
+}
+
+.nonActiveTitle {
+    opacity: 0.5;
+}
+
+.taxPayment {
+    text-align: left;
+    color: #aa3a21;
+}
+
+/* .border {
+    border: 2px solid red;
+} */
+
+.toForm {
+    color: #173a77;
+    margin-left: 130px;
+    font-size: 1.25em;
+}
+
+.toFormConfirmation > p {
+    margin-top: 40px;
+}
+
+.fromForm {
+    color: #173a77;
+    margin-left: 130px;
+    font-size: 1.25em;
+}
+
+.fromFormConfirmation > p {
+    margin-top: 40px;
+}
+
+
+#submitButton {
+    margin-top: 200px;
+    width: 260px;
+    background-color: #e26448;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+#cancelButton {
+    margin-top: 20px;
+    width: 260px;
+    background-color: #aa3a21;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.errorMessage {
+    color: red;
+}
