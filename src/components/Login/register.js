@@ -79,7 +79,7 @@ export default function Register() {
   const [cnfmPassword, setCnfmPassword] = useState('');
   const [error, setError] = useState(false);
   const [errorEmail, setEmailError] = useState(false);
-  const [loading,setLoad] = useState(false)
+  const [loading, setLoad] = useState(false)
 
   const registerUser = (e) => {
     e.preventDefault();
@@ -94,21 +94,23 @@ export default function Register() {
     })
       .then((res) => {
         console.log(res)
-        if(res.status === 200){
-            if(res.data === 'Account Registered'){
-                console.log(res.data)
-                window.location.href = '/registerResult'
-            }
-            else{
-                setEmailError(true);
-                setLoad(false)
-            }
+        if (res.status === 200) {
+          if (res.data === 'Account Registered') {
+            console.log(res.data)
+            window.location.href = '/registerResult'
+          }
+          else {
+            setEmailError(true);
+            setLoad(false)
+          }
         }
       })
-      .catch((err) => {
+      .catch(function (error) {
         setError(true);
         setLoad(false)
-        alert('Registration failed Please call out frontdesk');
+        if (error.response !== undefined) {
+          alert('Registration failed reason:' + error.response.data.errors[0].defaultMessage);
+        }
       });
   };
 
